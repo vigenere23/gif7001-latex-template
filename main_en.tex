@@ -1,0 +1,41 @@
+\documentclass{gif7001}
+
+\vname{Maxime Boucher}
+\vni{111 172 625}
+\vcourse{GIF-7001}
+\vduedate{18 septembre 2020}
+\vtitle{Devoir 1 : Rotation dans le plan}
+
+\begin{document}
+
+\vshort
+
+\begin{enumerate}
+    \item[1.] Short answer to question 1
+    \item[2.] Short answer to question 2
+    \item[3.] Long answer to question 3
+    
+    $^A\vvec{v} = \vframe[B]{A}\vmat{R} \vframe{B}\vvec{v} = \begin{bmatrix} \cos(-30) & -\sin(-30) \\ \sin(-30) & cos(-30) \end{bmatrix} \begin{bmatrix} 200 \\ 50 \end{bmatrix} \approx \begin{bmatrix} 198,21 \\ 56,70 \end{bmatrix}$
+    \item[4.] Answer to question 4 with multiple steps
+    \begin{enumerate}
+        \item[1.] Translate object
+        \item[2.] Rotate object
+        \item[3.] Scale object
+    \end{enumerate}
+    \item[5.] Answer to multiple subquestions
+    \begin{enumerate}
+        \item[a)] True
+        \item[b)] False
+        \item[c)] False
+    \end{enumerate}
+    \item[6.] Huge answer with alignements
+    \begin{align*}
+        \vframe{Y}\vhvec{s} &= \vframe[H]{V}\vhmat{T}(x_{P'},y_{W'}) \vframe[X]{Y}\vhmat{R}(\theta) \vframe{C}\vhvec{v} \\
+        \Leftrightarrow \vframe{C}\vhvec{w} &= \vframe[C]{B}\vhmat{R}^{-1}(\theta) \vframe[M]{S}\vhmat{T}^{-1}(x_{C'},y_{K'}) \vframe{A}\vhvec{v} \\
+        &= \vframe[C]{B}\vhmat{N}(-\theta) \vframe[D]{F}\vhmat{T}(-x_{H'},-y_{J'}) \vframe{T}\vhvec{b} \\
+        \Leftrightarrow \begin{bmatrix}g'\\h'\\j\end{bmatrix} &= \begin{bmatrix}\cos(\theta)&-\sin(\theta)&0\\\sin(\theta)&\cos(\theta)&0\\0&0&1\end{bmatrix} \begin{bmatrix}1&0&-j_{R'}\\0&1&-s_{T'}\\0&0&1\end{bmatrix} \begin{bmatrix}j\\r\\o\end{bmatrix} \\
+        &= \begin{bmatrix}\vec{o}'\cdot\vec{e}&\vec{g}'\cdot\vec{i}&0\\\vec{q}'\cdot\vec{n}&\vec{k}'\cdot\vec{l}&0\\0&0&1\end{bmatrix} \begin{bmatrix}1&0&-g_{B'}\\0&1&-a_{H'}\\0&0&1\end{bmatrix} \begin{bmatrix}q\\w\\e\end{bmatrix}
+    \end{align*}
+\end{enumerate}
+
+\end{document}

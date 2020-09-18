@@ -1,0 +1,41 @@
+\documentclass{gif7001}
+
+\vnom{Maxime Boucher}
+\vni{111 172 625}
+\vsigle{GIF-7001}
+\vdate{18 septembre 2020}
+\vtitre{Devoir 1 : Rotation dans le plan}
+
+\begin{document}
+
+\vcourt
+
+\begin{enumerate}
+    \item[1.] Réponse courte à la question 1
+    \item[2.] Réponse courte à la question 2
+    \item[3.] Réponse longue à la question 3
+    
+    $^A\vvec{v} = \vrep[B]{A}\vmat{R} \vrep{B}\vvec{v} = \begin{bmatrix} \cos(-30) & -\sin(-30) \\ \sin(-30) & cos(-30) \end{bmatrix} \begin{bmatrix} 200 \\ 50 \end{bmatrix} \approx \begin{bmatrix} 198,21 \\ 56,70 \end{bmatrix}$
+    \item[4.] Réponse à la question 4 avec plusieurs étapes
+    \begin{enumerate}
+        \item[1.] Translater l'object
+        \item[2.] Tourner l'object
+        \item[3.] Redimensionner l'object
+    \end{enumerate}
+    \item[5.] Réponse à des sous-questions
+    \begin{enumerate}
+        \item[a)] Vrai
+        \item[b)] Faux
+        \item[c)] Faux
+    \end{enumerate}
+    \item[6.] Longue réponse avec alignement des équations
+    \begin{align*}
+        \vrep{Y}\vvech{s} &= \vrep[H]{V}\vmath{T}(x_{P'},y_{W'}) \vrep[X]{Y}\vmath{R}(\theta) \vrep{C}\vvech{v} \\
+        \Leftrightarrow \vrep{C}\vvech{w} &= \vrep[C]{B}\vmath{R}^{-1}(\theta) \vrep[M]{S}\vmath{T}^{-1}(x_{C'},y_{K'}) \vrep{A}\vvech{v} \\
+        &= \vrep[C]{B}\vmath{N}(-\theta) \vrep[D]{F}\vmath{T}(-x_{H'},-y_{J'}) \vrep{T}\vvech{b} \\
+        \Leftrightarrow \begin{bmatrix}g'\\h'\\j\end{bmatrix} &= \begin{bmatrix}\cos(\theta)&-\sin(\theta)&0\\\sin(\theta)&\cos(\theta)&0\\0&0&1\end{bmatrix} \begin{bmatrix}1&0&-j_{R'}\\0&1&-s_{T'}\\0&0&1\end{bmatrix} \begin{bmatrix}j\\r\\o\end{bmatrix} \\
+        &= \begin{bmatrix}\vec{o}'\cdot\vec{e}&\vec{g}'\cdot\vec{i}&0\\\vec{q}'\cdot\vec{n}&\vec{k}'\cdot\vec{l}&0\\0&0&1\end{bmatrix} \begin{bmatrix}1&0&-g_{B'}\\0&1&-a_{H'}\\0&0&1\end{bmatrix} \begin{bmatrix}q\\w\\e\end{bmatrix}
+    \end{align*}
+\end{enumerate}
+
+\end{document}
