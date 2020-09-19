@@ -76,6 +76,14 @@ The LaTeX class offers both french and english alternatives for each commands.
   
   ##### Variables
   - `due_date` : the due date of the assignement
+
+- #### `\vtitle{title}` or `\vtitre{titre}`
+  > :warning: use **before** the `\begin{document}` command
+
+  Defines the assignement's title.
+
+  ##### Variables
+  - `title` : the title of the assignement
   
 - #### `\vshort` or `\vcourt`
   Shows the assignements header according to the previously defined informations (name, ni, course, etc.).
