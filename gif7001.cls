@@ -14,6 +14,7 @@
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{gensymb}
+\usepackage{cancel}  % Cancel elements in math mode
 
 % Units
 \usepackage{siunitx}
