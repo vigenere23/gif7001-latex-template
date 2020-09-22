@@ -15,6 +15,10 @@
 \usepackage{amsfonts}
 \usepackage{gensymb}
 
+% Units
+\usepackage{siunitx}
+\sisetup{group-separator = {\ }, output-decimal-marker = {,}, detect-inline-weight = text}
+
 
 %%% PRESENTATION %%%
 
