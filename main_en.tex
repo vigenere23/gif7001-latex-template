@@ -14,7 +14,7 @@
     \item[1.] Short answer to question 1
     \item[2.] Short answer to question 2
     \item[3.] Long answer to question 3
-    
+
     $^F\vvec{y} = \vframe[N]{Q}\vmat{H} \vframe{N}\vvec{w} = \begin{bmatrix} \cos(-167) & -\sin(-167) \\ \sin(-167) & cos(-167) \end{bmatrix} \begin{bmatrix} 92 \\ 17 \end{bmatrix} \approx \begin{bmatrix} 177,34 \\ -28,38 \end{bmatrix}$
     \item[4.] Answer to question 4 with multiple steps
     \begin{enumerate}
@@ -29,12 +29,33 @@
         \item[c)] False
     \end{enumerate}
     \item[6.] Huge answer with alignements
-    \begin{align*}
+          \begin{align*}
         \vframe{Y}\vhvec{s} &= \vframe[H]{V}\vhmat{T}(x_{P'},y_{W'}) \vframe[X]{Y}\vhmat{R}(\theta) \vframe{C}\vhvec{v} \\
         \Leftrightarrow \vframe{C}\vhvec{w} &= \vframe[C]{B}\vhmat{R}^{-1}(\theta) \vframe[M]{S}\vhmat{T}^{-1}(x_{C'},y_{K'}) \vframe{A}\vhvec{v} \\
         &= \vframe[C]{B}\vhmat{N}(-\theta) \vframe[D]{F}\vhmat{T}(-x_{H'},-y_{J'}) \vframe{T}\vhvec{b} \\
         \Leftrightarrow \begin{bmatrix}g'\\h'\\j\end{bmatrix} &= \begin{bmatrix}\cos(\theta)&-\sin(\theta)&0\\\sin(\theta)&\cos(\theta)&0\\0&0&1\end{bmatrix} \begin{bmatrix}1&0&-j_{R'}\\0&1&-s_{T'}\\0&0&1\end{bmatrix} \begin{bmatrix}j\\r\\o\end{bmatrix} \\
         &= \begin{bmatrix}\vec{o}'\cdot\vec{e}&\vec{g}'\cdot\vec{i}&0\\\vec{q}'\cdot\vec{n}&\vec{k}'\cdot\vec{l}&0\\0&0&1\end{bmatrix} \begin{bmatrix}1&0&-g_{B'}\\0&1&-a_{H'}\\0&0&1\end{bmatrix} \begin{bmatrix}q\\w\\e\end{bmatrix}
+    \end{align*}
+    \item[7.] Mathematical answer with units
+    \begin{align*}
+        x' & = s_x \cdot X \\
+        x' & = \left( \SI{50}{\milli\metre\per\centi\metre} \right) \cdot \left(\SI{5}{\centi\metre}\right) \\
+        x' & = \left( \SI{50}{\milli\metre\per\cancel\centi\metre} \right) \cdot \left(\SI{5}{\cancel\centi\metre}\right) \\
+        x' & = \SI{250}{\milli\metre}
+    \end{align*}
+    \textbf{Note: } For angle notations, we can write \(\theta = \SI{180}{\degree} = \SI{\pi}{\radian}\).
+    \item[8.] Mathematical answer with term cancellations
+    \begin{align*}
+        \vmath{R} &=
+        \begin{bmatrix}
+            \cos \theta & -\sin \theta & 0 \\
+            \sin \theta & \cos \theta & 0 \\
+            0 & 0 & 1 \\
+        \end{bmatrix} \\
+        \det \vmath{R} &= \cos \theta \cdot \left[\cos \theta \cancel{- 0}\right] - \left(- \sin \theta \right) \cdot \left[ \sin \theta \cancel{- 0} \right] \\
+        \det \vmath{R} &= \cos^2 \theta + \sin^2 \theta \\
+        \det \vmath{R} &= \cancelto{1}{\cos^2 \theta + \sin^2 \theta} \\
+        \det \vmath{R} &= 1
     \end{align*}
 \end{enumerate}
 

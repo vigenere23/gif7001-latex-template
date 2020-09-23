@@ -14,6 +14,11 @@
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{gensymb}
+\usepackage{cancel}  % Cancel elements in math mode
+
+% Units
+\usepackage{siunitx}
+\sisetup{group-separator = {\ }, output-decimal-marker = {,}, detect-inline-weight = text}  % French number notation (150,000.95 ==> 150 000,95)
 
 
 %%% PRESENTATION %%%
