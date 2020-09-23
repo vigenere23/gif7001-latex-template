@@ -1,0 +1,33 @@
+### TeX ###
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.gz
+*.synctex*
+*.xdv
+*.out.pyg
+
+## BibTex files
+*.bbl
+*.blg
+*.fdb_*
+
+## Intermediate documents:
+*.dvi
+*-converted-to.*
+
+### Editor ###
+## Vim & Emacs temp files:
+.*sw[op]
+*~
+
+## VS Code Config files:
+.vscode
+
+## JetBrains Config
+.idea
